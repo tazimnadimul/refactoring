@@ -1,19 +1,18 @@
 package refactoring;
 
 public class Vehicle {
-
 	public static final int BASIC = 1;
 	public static final int GENERAL = 2;
 	public static final int LUXE = 3;
-
+	
 	private String marca;
 	private String model;
 	private int categoria;
 	
-	public Vehicle(String marca, String model, int basic2) {
+	public Vehicle(String marca, String model, int categoria) {
 		this.marca = marca;
 		this.model = model;
-		this.categoria = basic2;
+		this.categoria = categoria;
 	}
 
 	public String getMarca() {
